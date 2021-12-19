@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS */
+body {
+    background-color: #333;
+}
+/* title */
+.title {
+    text-align: center;
+    color: #fff;
+    padding: 0.5em 0;
+}
+/* ul1 list */
+.ul1 {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+/* content */
+.content {
+    width: 100px;
+    height: 500px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-size: cover;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    text-align: center;
+    color: #ffffff;
+}
+/* hover effect */
+.exp-div:hover {
+    width: 500px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    font-size: 25pt;
+    font-style: italic;
+}
+/* spans */
+.exp-div span {
+    position: relative;
+    top: 2rem;
+}
+/* ul1 items */
+.ul1-item {
+    margin-left: 1rem;
+}
+/* dives background */
+.div1 {
+    background-image: url('./Pictures/pic-1.jpg');
+}
+.div2 {
+    background-image: url('./Pictures/pic-2.jpg');
+}
+.div3 {
+    background-image: url('./Pictures/pic-3.jpg');
+}
+.div4 {
+    background-image: url('./Pictures/pic-4.jpg');
+}
